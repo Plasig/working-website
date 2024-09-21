@@ -3,13 +3,11 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ClerkProvider, SignedIn, SignedOut } from "@clerk/nextjs";
 import AuthorizationPage from "@/components/initial/AuthorizationPage";
-import Sidebar from "@/components/shared/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Plasig",
-  description: "Detect ocean plastic waste",
 };
 
 export default function RootLayout({
